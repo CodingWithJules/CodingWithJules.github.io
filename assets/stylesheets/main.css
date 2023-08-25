@@ -531,6 +531,12 @@ max-width: 100%;
 }
 
 @media all and (max-width:425px){
+  .nav {
+    float: left;
+ }
+}
+
+@media all and (max-width:425px){
   .row-alt {
     display: none;
  }
