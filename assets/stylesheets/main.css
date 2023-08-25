@@ -537,6 +537,12 @@ max-width: 100%;
 }
 
 @media all and (max-width:425px){
+  .hero {
+    text-align: left;
+ }
+}
+
+@media all and (max-width:425px){
   .row-alt {
     display: none;
  }
@@ -548,6 +554,18 @@ max-width: 100%;
     display: inline;
    max-width: auto;
    margin: 0%;
+ }
+}
+
+@media all and (max-width:481px){
+  .hero {
+    text-align: left;
+ }
+}
+
+@media all and (max-width:481px){
+  .nav {
+    float: left;
  }
 }
 
